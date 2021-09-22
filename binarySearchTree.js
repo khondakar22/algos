@@ -26,6 +26,20 @@ class Node {
     }
   }
   
+  contains(data) {
+    if(this.data === data) {
+      return this;
+    }
+    
+    if(this.data < data && this.right) {
+      return this.right.contains(data);
+    } else if(this.data > data && this.left) {
+      return this.left.contains(data);
+    }
+    
+    return null;
+  }
+  
 }
 
 let bst  = new Node(30);
@@ -40,6 +54,7 @@ bst.insert(41);
 bst.insert(55);
 bst.insert(60);
 
+console.log(bst.contains(42));
 console.log(bst.left);
 console.log(bst.left.left);
 console.log(bst.left.right);
