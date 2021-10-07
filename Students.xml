@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Students>
+  <Student>
+    <Name>Simone</Name>
+    <Surname>Starace</Surname>
+    <Age>25</Age>
+    <Gender>M</Gender>
+    <University>Parthenope</University>
+    <Semester>6th Semester</Semester>
+  </Student>
+  <Student>
+    <Name>Cristina</Name>
+    <Surname>Biosef</Surname>
+    <Age>27</Age>
+    <Gender>F</Gender>
+    <University>Cambridge</University>
+    <Semester>8th Semester</Semester>
+  </Student>
+  <Student>
+    <Name>Mario</Name>
+    <Surname>Red</Surname>
+    <Age>30</Age>
+    <Gender>M</Gender>
+    <University>Parthenope</University>
+    <Semester>5th Semester</Semester>
+  </Student>
+</Students>
